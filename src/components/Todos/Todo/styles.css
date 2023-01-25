@@ -1,0 +1,56 @@
+.todo {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(216, 134, 2);
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.deleteDiv {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: end;
+}
+
+.deleteButton {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.pDiv {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+.pTitle{
+    margin: 0;
+}
+.editDiv{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.editButton{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
